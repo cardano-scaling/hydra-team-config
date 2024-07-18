@@ -11,7 +11,7 @@ You can maintain a bash script like
   --host 0.0.0.0 \
   --cardano-signing-key dan-node.sk \
   --ledger-protocol-parameters data/protocol-parameters.json \
-  --mainnet \
+  --testnet-magic 2 \
   --node-socket mainnet/node.sock \
   --persistence-dir ~/mainnet/persistence \
   --hydra-scripts-tx-id $(cat data/hydra-scripts-tx-id) \
