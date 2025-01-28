@@ -28,5 +28,6 @@ You can maintain a bash script like
   --peer $(cat data/parties/sebastian.peer) \
   --hydra-verification-key data/parties/sebastian.hydra.vk \
   --cardano-verification-key data/parties/sebastian.cardano.vk \
+  --contestation-period 300s \
     | tee -i hydra.log
 ```
